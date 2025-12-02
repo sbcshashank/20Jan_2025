@@ -12,6 +12,7 @@ public class Test2 {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://youtube.com");
+		System.out.println("Hello New Changes");
 	}
 
 }
